@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+#chessboard{
+    background-image:url('Assets/chessbg.jpg');
+    height: 1000px;
+    width: 100%;
+}nav{
+    height:80px;
+    width:100%;
+    background-color: black;
+}
+#logo{
+    height: 80px;
+    width:80px;
+    border-radius:50%;
+    background-color: black;
+}
+#navhead{
+    font-size:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900px;
+    color: rgb(228, 241, 245);
+    justify-content: baseline;
+    margin-left:100px;
+    margin-top: -75px;
+}
+span{
+    color:rgb(212, 148, 9);
+}
+#navsubhead{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    letter-spacing: 0.5mm;
+    padding-top:8px;
+    margin-left:100px;
+}
+
+ul{
+    display:flex;
+    gap:30px;
+    font-weight: 500;
+    justify-content:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.2mm;
+    margin-top: -35px;
+    margin-left:90px;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration:none;
+    font-size: 18px;
+    color:white;
+}
+a:hover{
+    background-color: rgb(212, 148, 9);
+    color:black;
+    border-radius: 10%;
+    border-color: rgb(236, 196, 196);
+    transition:0.1s;
+}
+#register{
+    float:right;
+    margin-right:35px;
+    margin-top:-30px;
+    font-size:14px;
+    background-color:rgb(212, 148, 9);
+    padding:8px;
+    letter-spacing: 0.1mm;
+    
+    border: 2px solid rgb(212, 146, 4);  
+}
+#regiter a{
+    background-color: ;
+}
+#register:hover{
+    color:rgb(212, 148, 9);
+    background-color: black;
+    transition: 0.1s;
+}
+#box{
+    display:grid;
+    gap:5px;
+    grid-template-rows:repeat(8, 1fr);
+    grid-template-columns: repeat(8,1fr);
+    width:950px;
+    margin-top: 50px;
+    margin-left: 200px;
+    justify-content: center;
+}
+#whitebox{     
+    background-color: white;     
+    height: 100px;     
+    gap:1px 
+} 
+#blackbox{     
+    background-color: rgb(8, 8, 8);     
+    height: 100px;     
+    gap:1px 
+}
